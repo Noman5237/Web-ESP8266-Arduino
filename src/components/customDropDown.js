@@ -1,3 +1,4 @@
+import { serverIP } from "../App.js";
 import React from "react";
 import InputLabel from "@material-ui/core/InputLabel";
 import FormControl from "@material-ui/core/FormControl";
@@ -16,7 +17,7 @@ export default function NativeSelects({ pin }) {
       data: event.target.value,
     });
     axios
-      .get(`http://192.168.0.104/data?mode=d&pin=${pin}&data=${state.data}`)
+      .get(`http://${serverIP}/data?mode=d&pin=${pin}&data=${state.data}`)
       .then(function (response) {
         // handle success
         console.log(response);
