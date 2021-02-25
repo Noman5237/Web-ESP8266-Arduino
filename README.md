@@ -21,3 +21,5 @@ And communicates the necessary data to Arduino using serial ports
 `<a10,50>`
 
 After that arduino receives the transmissions breaks it down and executes it.
+
+<h2>Create ISSUE if you have any trouble</h2>
