@@ -13,7 +13,7 @@ Here is a challenge: Try installing a program to ESP-01 without using NodeMCU or
 If you set your Serial Monitor to 9600 you will see ESP connecting to your local Wifi network and setting up a HTTP server.
 
 Something like:
-![image](./images/setup.png)
+![image](https://github.com/Noman5237/Web-ESP8266-Arduino/blob/espNArduino/images/setup.PNG)
 
 > Step 5: Copy the ip address
 
