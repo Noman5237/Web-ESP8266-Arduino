@@ -2,8 +2,7 @@
 
 (Change your Wifi credentials in the code manually)
 
-Here is a challenge: Try installing a program to ESP without using NodeMCU or any uart module
-Try installing core ESP8266 module just using arduino. (HINT: Use Serial Ports)
+Here is a challenge: Try installing a program to ESP-01 without using NodeMCU or any uart module with just arduino(HINT: Use Serial Ports)
 
 > Step 2: Install readData.ino to Arduino module
 
