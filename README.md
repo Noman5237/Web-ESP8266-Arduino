@@ -13,4 +13,12 @@ We can create all sorts of fancy UI but this is the basic
 
 > After that you are happy to play with this thing
 
-> If you have any confusion open a issue to discuss
+So to summarize web gui sends a GET request
+`http://192.168.0.104/data?mode=a&pin=10&data=50`
+
+to server setup in ESP8266 with arguments and then the server program at ESP8266 parses the information
+And communicates the necessary data to Arduino using serial ports
+
+`<a10,50>`
+
+After that arduino receives the transmissions breaks it down and executes it.
