@@ -2,8 +2,8 @@
 #include <ESP8266HTTPClient.h>
 #include <ESP8266WiFi.h>        // Include the Wi-Fi library
 
-const char* ssid     = "FearMe37";         // The SSID (name) of the Wi-Fi network you want to connect to
-const char* password = "Noman@5237";     // The password of the Wi-Fi network
+const char* ssid     = "********";         // The SSID (name) of the Wi-Fi network you want to connect to
+const char* password = "********";     // The password of the Wi-Fi network
 
 ESP8266WebServer server(80);
 void handleRoot();              // function prototypes for HTTP handlers
