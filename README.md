@@ -18,7 +18,6 @@ So to summarize web gui sends a GET request
 
 to server setup in ESP8266 with arguments and then the server program at ESP8266 parses the information
 And communicates the necessary data to Arduino using serial ports
-
 `<a10,50>`
 
 After that arduino receives the transmissions breaks it down and executes it.
