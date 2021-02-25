@@ -7,6 +7,8 @@ We can create all sorts of fancy UI but this is the basic
 
 > Step 1: Paste the IP address obtained from successfully completing the physical connection in .env file
 
+Checkout espNArduino branch if you haven't setup your physical connection
+
 > Step 2: Install the necessary npm modules using 'npm i'
 
 > Step 3: Then start the server using 'npm start'
